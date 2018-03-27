@@ -1,6 +1,4 @@
 body {
-    margin: 60px auto;
-    width: 70%;
     background-color: #431d52
 }
 .topnav {
@@ -19,6 +17,7 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #a442c7;
+    font-family: 'Calibri'
 }
 a:hover {
     color: #ce54fa;

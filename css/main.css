@@ -2,6 +2,10 @@ body {
     background-color: #431d52;
     margin: 0px;
 }
+.screenshots {
+    width: auto;
+    height: auto;
+}
 .container {
     margin-left: 15%;
     margin-right: 15%;

@@ -1,5 +1,9 @@
 body {
     background-color: #431d52
+    padding: 0px;
+}
+.container {
+  width: 70%;
 }
 .topnav {
     background-color: #7d30ac

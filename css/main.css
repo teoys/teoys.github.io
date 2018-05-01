@@ -1,7 +1,13 @@
 @keyframes backgroundScroll {
-	from {background-position: 0 0;}
-    to {background-position: -200px -200px;}
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -200px -200px;
+    }
 }
+
 body {
     background-color: #431d52;
     margin: 0px;
@@ -11,66 +17,81 @@ body {
     animation: backgroundScroll 5s linear infinite;
     animation-fill-mode: forwards;
 }
+
 img {
     border-radius: 5px;
     max-width: 100%;
     max-height: 100%;
 }
+
 .scr1 {
     width: 1183;
     height: 661;
 }
+
 .screenshots {
     width: auto;
     height: auto;
 }
+
 .container {
     margin-left: 15%;
     margin-right: 15%;
 }
+
 .topnav {
     background-color: #7f45a2
 }
+
 .navmenu {
     margin-left: 15%;
     margin-right: 15%;
 }
+
 nav ul, footer ul {
     font-family: 'Calibri';
-    padding: 0px;
+    padding: 5px;
+    margin: 0px;
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: block;
     margin-right: 20px;
 }
+
 a {
-    margin: 5px 5px 5px 5px;
     text-decoration: none;
     color: #e18fff;
     font-family: 'Calibri';
-    font-weight:1000;
+    font-weight: 1000;
     font-size: 1.2em;
     transition: color 0.25s;
+    padding: 5px;
 }
+
 a:hover {
     color: #ebb4ff;
 }
+
 a:active {
     color: #ebb4ff;
 }
+
 h1 {
     font-size: 2.5em;
-    font-family:'Calibri';
+    font-family: 'Calibri';
     color: #da9dff;
 }
+
 p {
     font-size: 1.1em;
     line-height: 1.4em;
     color: #d083ff;
     font-family: 'Calibri';
 }
+
 footer {
     border-top: 1px solid #e3a8ff;
     font-size: .8em;

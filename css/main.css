@@ -2,6 +2,14 @@ body {
     background-color: #431d52;
     margin: 0px;
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.scr1 {
+    width: 1183;
+    height: 661;
+}
 .screenshots {
     width: auto;
     height: auto;

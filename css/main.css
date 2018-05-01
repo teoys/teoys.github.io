@@ -42,6 +42,7 @@ a {
     font-family: 'Calibri';
     font-weight:1000;
     font-size: 1.2em;
+    transition: color 0.25s;
 }
 a:hover {
     color: #ebb4ff;

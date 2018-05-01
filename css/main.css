@@ -1,6 +1,15 @@
+@keyframes backgroundScroll {
+	from {background-position: 0 0;}
+    to {background-position: -200px -200px;}
+}
 body {
     background-color: #431d52;
     margin: 0px;
+    background-image: url('../images/bg.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    animation: backgroundScroll 5s linear infinite;
+    animation-fill-mode: forwards;
 }
 img {
     border-radius: 5px;

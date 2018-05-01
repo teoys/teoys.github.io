@@ -21,6 +21,10 @@ img {
 .topnav {
     background-color: #7f45a2
 }
+.navmenu {
+    margin-left: 15%;
+    margin-right: 15%;
+}
 nav ul, footer ul {
     font-family: 'Calibri';
     padding: 0px;

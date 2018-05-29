@@ -24,6 +24,12 @@ img {
     max-height: 100%;
 }
 
+* {
+	user-select: none;
+	cursor: default;
+	outline: none;
+}
+
 .homelink {
     padding: 0px;
 }

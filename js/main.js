@@ -8,7 +8,7 @@ if (document.addEventListener) {
         });
     }
 
-function downloadClk () {
+function downloadLatestClk () {
     window.location.href = 'https://1drv.ms/u/s!AsqGVIF15c0wj0Y5NLIWlc7j8Vq0';
 }
 

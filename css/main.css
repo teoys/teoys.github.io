@@ -171,3 +171,7 @@ ul.posts li {
 	border: 2px solid #e3a8ff;
 	transform: scale(0.95);
 }
+
+.dload-buttons {
+    display: block;
+}

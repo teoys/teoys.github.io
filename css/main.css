@@ -214,7 +214,8 @@ ul.posts li {
 	transition-duration: 0.15s;
 	font-family: 'Calibri';
 	font-size: 1.25em;
-	font-weight: bold;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .btn-default:hover {

@@ -7,3 +7,7 @@ if (document.addEventListener) {
             window.event.returnValue = false;
         });
     }
+
+function downloadClk () {
+    alert('Download cliked!!!');
+}

@@ -135,3 +135,24 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.btn-default {
+	border: 2px solid #7f45a2;
+	color: #e3a8ff;
+	background-color: transparent;
+	border-radius: 5px;
+	padding: 5px 10px;
+	transition-duration: 0.15s;
+	font-family: 'Calibri';
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.btn-default:hover {
+	background-color: #7f45a2;
+	color: #f2d5ff;
+}
+.btn-default:active {
+	border: 2px solid #e3a8ff;
+	transform: scale(0.95);
+}

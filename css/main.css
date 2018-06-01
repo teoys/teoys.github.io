@@ -58,19 +58,73 @@ img {
     height: auto;
 }
 
-.container {
+@media (min-width: 979px) {
+    /* Large desktop */
+    .container {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .navmenu {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    /* Portrait tablet to landscape and desktop */
+    .container {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    .navmenu {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+}
+
+@media (max-width: 767px) { 
+    /* Landscape phone to portrait tablet */
+    .container {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .navmenu {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+
+@media (max-width: 480px) {
+    /* Landscape phones and down */
+    .container {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    
+    .navmenu {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+}
+
+/* .container {
     margin-left: 15%;
     margin-right: 15%;
-}
+} */
 
 .topnav {
     background-color: #7f45a2
 }
 
-.navmenu {
+/* .navmenu {
     margin-left: 15%;
     margin-right: 15%;
-}
+} */
 
 nav ul, footer ul {
     font-family: 'Calibri';
@@ -174,4 +228,5 @@ ul.posts li {
 
 .dload-buttons {
     display: block;
+    width: 30em;
 }

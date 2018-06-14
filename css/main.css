@@ -209,13 +209,8 @@ ul.posts li {
 	border: 0.1em solid #7f45a2;
 	color: #e3a8ff;
 	background-color: transparent;
-<<<<<<< HEAD
 	border-radius: 0.25em;
 	padding: 0.25em 0.5em;
-=======
-	border-radius: 5px;
-	padding: 5px 10px;
->>>>>>> 25658f99fe0611a10bccb52c42478b3c963f02af
 	transition-duration: 0.15s;
 	font-family: 'Calibri';
 	font-size: 1.25em;

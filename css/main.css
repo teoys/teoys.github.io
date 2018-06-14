@@ -215,7 +215,7 @@ ul.posts li {
 	font-family: 'Calibri';
 	font-size: 1.25em;
     font-weight: bold;
-    margin-bottom: 0.1em;
+    margin: 0.1em;
     white-space: nowrap;
 }
 

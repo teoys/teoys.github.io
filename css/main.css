@@ -262,6 +262,7 @@ header::after {
 
 .navmenu {
     float: right;
+    display: flex;
 }
 
 .navmenu ul {

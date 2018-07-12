@@ -9,6 +9,10 @@ if (document.addEventListener) {
     }
 
 function downloadLatestClk () {
+    window.location.href = 'https://1drv.ms/u/s!AsqGVIF15c0wj2_mNzJpU3CMjWkZ';
+}
+
+function downloadVer003 () {
     window.location.href = 'https://1drv.ms/u/s!AsqGVIF15c0wj0Y5NLIWlc7j8Vq0';
 }
 

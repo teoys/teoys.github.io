@@ -237,12 +237,16 @@ ul.posts li {
 	border: 0.1em #e3a8ff solid;
 	padding: 0.2em;
 	border-radius: 0.5em;
-	width: fit-content;
+	width: 16.45em;
 }
 
 .not-legal-text {
     margin: 0.2em;
     font-weight: bold;
+}
+
+.normal {
+	margin: 0.3em;
 }
 
 header {

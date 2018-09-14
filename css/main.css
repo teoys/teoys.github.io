@@ -108,8 +108,8 @@ img {
     }
     
     .menu {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+        margin-left: 0.3em;
+        margin-right: 0.3em;
     }
 }
 /* 
@@ -260,10 +260,10 @@ header::after {
     clear: both;
 }
 
-.menu {
+/*.menu {
     margin-left: 15%;
     margin-right: 15%;
-}
+}*/
 
 .navmenu {
     float: right;

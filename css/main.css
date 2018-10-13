@@ -70,6 +70,10 @@ img {
         margin-left: 15%;
         margin-right: 15%;
     }
+
+    body {
+	margin-bottom: 10em;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -84,6 +88,9 @@ img {
         margin-right: 8%;
     }
 
+    body {
+	margin-bottom: 5em;
+    }
 }
 
 @media (max-width: 767px) { 
@@ -96,6 +103,10 @@ img {
     .menu {
         margin-left: 1em;
         margin-right: 1em;
+    }
+
+    body {
+	margin-bottom: 3em;
     }
 }
 
@@ -110,6 +121,10 @@ img {
     .menu {
         margin-left: 0.3em;
         margin-right: 0.3em;
+    }
+
+    body {
+	margin-bottom: 2.75em;
     }
 }
 /* 

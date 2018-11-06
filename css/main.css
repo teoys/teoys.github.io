@@ -330,3 +330,10 @@ header::after {
     padding: 0.3em 0;
     margin-right: 0.3em;
 }
+
+.instTut {
+	height: 30em;
+	left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}

@@ -266,7 +266,7 @@ ul.posts li {
 }
 
 header {
-    background: #7f45a2;
+    background: linear-gradient(180deg, #7f45a2, #7c41a000);
 }
 
 header::after {
@@ -293,30 +293,32 @@ header::after {
 
 .navmenu li {
     display: inline-block;
-    transition: background-color 0.15s;
+    transition: all 0.15s;
+    border-top: 3px solid #0000;
 }
 
 .navmenu li:hover {
-    background-color: #e18fff;
+/*     background: linear-gradient(180deg, #e18fff, #e18fff96); */
+	border-top: 3px solid #e18fff;
 }
 
 .navmenu li:active {
-    background-color: #431d52;
+    background: #e18fff;
 }
 
 .navmenu a {
     text-decoration: none;
     color: #e18fff;
     font-family: 'Calibri';
-    font-weight: 400;
+    font-weight: bold;
     text-transform: uppercase;
     transition: color 0.15s linear;
     display: inline-block;
-    padding: 0.97em 0.97em;
+    padding: .5em .5em;
 }
 
 .navmenu a:hover {
-    color: #69387a;
+    color: #ffffff;
 }
 
 .navmenu a:active {

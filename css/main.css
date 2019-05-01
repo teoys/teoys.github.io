@@ -298,8 +298,7 @@ header::after {
 }
 
 .instTut {
-	height: 30em;
-	left: 50%;
-	position: relative;
-	transform: translateX(-50%);
+	max-height: 30em;
+	object-fit: contain;
+	width: 100%;
 }

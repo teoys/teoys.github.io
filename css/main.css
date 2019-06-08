@@ -143,7 +143,7 @@ a:hover {
 }
 
 a:active {
-    color: #ce49ff;
+    color: #7f45a2;
 }
 
 h1 {
@@ -301,4 +301,12 @@ header::after {
 	max-height: 30em;
 	object-fit: contain;
 	width: 100%;
+}
+
+.ddlcmoe {
+	font-size: 1.1em;
+    line-height: 1.4em;
+    color: #d083ff;
+    font-family: 'Calibri';
+    font-weight: bold;
 }
